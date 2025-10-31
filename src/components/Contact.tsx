@@ -151,8 +151,8 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-foreground">Address</p>
                     <p className="text-muted-foreground">
-                      123 Industrial Area, Sector 45<br />
-                      Manufacturing District, State 123456
+                      22 Premium park<br />
+                      Indore, MP 453555
                     </p>
                   </div>
                 </div>
