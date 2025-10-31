@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/yash-logo.png";
 
 const Header = () => {
   const scrollToSection = (id: string) => {
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         {/* Logo and Company Name */}
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src={logo} alt="Yash Services Logo" className="h-10 w-10" />
+          <img src={logo} alt="Yash Services Logo" className="h-10" />
           <span className="text-xl font-bold text-foreground">Yash Services</span>
         </div>
 
